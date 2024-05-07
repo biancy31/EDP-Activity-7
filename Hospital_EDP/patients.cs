@@ -16,7 +16,7 @@ using OfficeOpenXml.Drawing.Chart;// for charts and graphs
 using OfficeOpenXml.Style; // changes fonts, style, etc
 
 
-namespace Hospital_EDP
+namespace Hospital_EDP                 //Hospi Update
 {
     public partial class patients : Form
     {
@@ -416,6 +416,7 @@ namespace Hospital_EDP
 
                                     // Set the position of the chart
                                     chart.SetPosition(2, 0, 1, 0);
+
                                     chart.SetSize(385, 300);
 
                                     // Add data to the chart
